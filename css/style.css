@@ -144,3 +144,24 @@ img {
 	margin-top: 20px;
 	display: inline-block;
 }
+
+/* Footer Section */
+footer {
+	background-color: #0b0d17;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+footer h2 {
+	font-family: "Yeseva One", cursive;
+	font-size: 25px;
+	color: #fff;
+}
+
+footer h2 span {
+	color: orange;
+}
+
+footer p {
+	color: #d9dbe1;
+}
