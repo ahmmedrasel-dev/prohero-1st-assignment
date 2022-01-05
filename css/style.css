@@ -110,3 +110,37 @@ img {
 .goals {
 	background-color: #fff4d6;
 }
+
+/* About Me Part */
+
+#about {
+	background-image: url(../images/about-bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.col-45 {
+	width: 45%;
+}
+
+.col-45 img {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.col-55 {
+	width: 55%;
+}
+
+.col-55 h2 {
+	font-size: 40px;
+}
+
+.col-55 h2 span {
+	display: block;
+}
+
+.col-55 .button {
+	margin-top: 20px;
+	display: inline-block;
+}
