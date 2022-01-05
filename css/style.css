@@ -7,6 +7,10 @@ body {
 	padding: 0;
 }
 
+section {
+	margin-bottom: 100px;
+}
+
 img {
 	vertical-align: middle;
 }
@@ -26,7 +30,11 @@ img {
 }
 
 .col-33 {
-	width: 33%;
+	width: 32%;
+	padding: 20px 15px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 2px rgb(182 182 182);
+	box-sizing: border-box;
 }
 
 .home-content {
@@ -35,10 +43,20 @@ img {
 
 .home-content h1 {
 	font-family: "Yeseva One", cursive;
-	font-size: 45px;
-	border-left: 5px solid rgb(169, 0, 0);
-	padding-left: 10px;
-	border-radius: 5px;
+	font-size: 55px;
+	position: relative;
+	margin-left: 15px;
+}
+
+.home-content h1::after {
+	position: absolute;
+	content: "";
+	height: 86%;
+	width: 6px;
+	left: -15px;
+	top: 9px;
+	background-color: red;
+	border-radius: 10px;
 }
 
 .home-content h1 span {
@@ -64,8 +82,29 @@ img {
 	border-radius: 5px;
 }
 
-h2 {
+.title h2 {
 	font-size: 48px;
 	font-weight: 700;
 	color: #13103a;
+	text-align: center;
+}
+
+.title h2 span {
+	color: #ff5959;
+}
+
+/* About Part */
+
+.col-33 img {
+	width: 80px;
+}
+.mission {
+	background-color: #4f9da61a;
+}
+.vission {
+	background-color: #ff59591a;
+}
+
+.goals {
+	background-color: #fff4d6;
 }
