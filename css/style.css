@@ -8,7 +8,7 @@ body {
 }
 
 section {
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 img {
@@ -98,9 +98,11 @@ img {
 .col-33 img {
 	width: 80px;
 }
+
 .mission {
 	background-color: #4f9da61a;
 }
+
 .vission {
 	background-color: #ff59591a;
 }
