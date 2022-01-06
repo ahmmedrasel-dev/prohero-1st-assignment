@@ -161,6 +161,12 @@ img {
 
 /* Hobois Section */
 
+#hobies {
+	background-image: url(../images/hobies_bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
 .col-25 {
 	width: 23%;
 	background-color: #efefef;
