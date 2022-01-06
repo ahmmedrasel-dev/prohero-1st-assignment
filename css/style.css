@@ -99,6 +99,12 @@ img {
 	width: 80px;
 }
 
+#mission {
+	background-color: #fff6f6;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 .mission {
 	background-color: #4f9da61a;
 }
@@ -143,6 +149,49 @@ img {
 .col-55 .button {
 	margin-top: 20px;
 	display: inline-block;
+}
+
+/* Community */
+
+#community {
+	background-color: #fff6f6;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* Hobois Section */
+
+.col-25 {
+	width: 23%;
+	background-color: #efefef;
+	text-align: center;
+	padding: 30px 0px;
+	box-sizing: border-box;
+	box-shadow: 10px 10px 15px #cbcbcb;
+}
+
+.cyling {
+	border-left: 5px solid;
+	border-image: linear-gradient(#051937, #a8eb12);
+	border-image-slice: 1;
+}
+
+.coding {
+	border-left: 5px solid;
+	border-image: linear-gradient(#cc2b5e, #753a88);
+	border-image-slice: 1;
+}
+
+.hiking {
+	border-left: 5px solid;
+	border-image: linear-gradient(#dd5e89, #f7bb97);
+	border-image-slice: 1;
+}
+
+.traveling {
+	border-left: 5px solid;
+	border-image: linear-gradient(#02aab0, #00cdac);
+	border-image-slice: 1;
 }
 
 /* Footer Section */
